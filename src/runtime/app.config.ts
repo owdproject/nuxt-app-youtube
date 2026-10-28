@@ -64,7 +64,7 @@ export default {
     },
   },
   commands: {
-    youtube: (app: IApplicationController, args: any) => {
+    youtube: (app: any, args: any) => {
       const url = args?._[1] || ''
       const doNotCheckUrlValidity = args.noCheck
       const forceNewWindow = args.new
