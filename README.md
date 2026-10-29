@@ -17,7 +17,7 @@ This app for Open Web Desktop provides a YouTube and YouTube Music player with a
 ## Installation
 
 ```bash
-pnpm desktop add @owdproject/app-youtube
+pnpm desktop add @owdproject/app-nuxt-youtube
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ import { defineDesktopConfig } from '@owdproject/core'
 
 export default defineDesktopConfig({
   apps: [
-    '@owdproject/app-youtube'
+    '@owdproject/app-nuxt-youtube'
   ],
   youtube: {
     galleryRotateIntervalMs: 8000,
