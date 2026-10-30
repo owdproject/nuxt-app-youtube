@@ -1,5 +1,5 @@
 {
-  "name": "@owdproject/app-nuxt-youtube",
+  "name": "@owdproject/nuxt-app-youtube",
   "version": "4.0.0-alpha.3",
   "description": "YouTube App for your Open Web Desktop client",
   "keywords": [
@@ -9,7 +9,7 @@
     "youtube"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/owdproject/app-youtube",
+  "homepage": "https://github.com/owdproject/nuxt-app-youtube",
   "author": {
     "name": "Open Web Desktop Team",
     "url": "https://github.com/owdproject"
@@ -48,7 +48,7 @@
   "dependencies": {
     "@nuxt/fonts": "^0.11.4",
     "@nuxt/kit": "^4.4.6",
-    "@owdproject/kit-nuxt-tailwind": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-kit-tailwind": "^4.0.0-alpha.3",
     "@owdproject/nuxt": "^4.0.0-alpha.3"
   },
   "peerDependencies": {
@@ -59,7 +59,7 @@
     "@nuxt/module-builder": "^1.0.2",
     "@nuxt/schema": "^4.4.6",
     "@owdproject/core": "^4.0.0-alpha.3",
-    "@owdproject/theme-nuxt-nova": "^4.0.0-alpha.3",
+    "@owdproject/nuxt-theme-nova": "^4.0.0-alpha.3",
     "nuxt": "^4.4.6",
     "typescript": "~6.0.3"
   },
