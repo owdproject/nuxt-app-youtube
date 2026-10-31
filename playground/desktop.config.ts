@@ -1,7 +1,7 @@
 import { defineDesktopConfig } from '@owdproject/nuxt'
 
 export default defineDesktopConfig({
-  theme: '@owdproject/nuxt-theme-nova',
+  theme: '@owdproject/nuxt-theme-paper',
   apps: ['@owdproject/nuxt-app-youtube'],
   systemBar: {
     enabled: true,
@@ -9,7 +9,7 @@ export default defineDesktopConfig({
   },
   about: {
     title: 'YouTube (playground)',
-    subtitle: 'app-youtube · theme-nova',
+    subtitle: 'app-youtube · theme-paper',
     href: 'https://github.com/owdproject/nuxt-app-youtube',
     versionText: 'Nuxt Desktop',
     icons: [
